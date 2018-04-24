@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/org/plasea/generator/controller/ControllerGenerator.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/org/plasea/generator/controller/controller.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/org/plasea/generator/main/GenerateMain.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/org/plasea/generator/main/MainCreateor.java" charset="GBK" />
+  </component>
+</project>

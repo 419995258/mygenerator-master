@@ -1,0 +1,3 @@
+config.properties是生成项目用的输入配置，配置成目标项目相应的路径。可以根据单个表生成或者根据数据库生成。
+目前仅仅支持oracle和mysql数据库类型
+然后运行MainCreateor.java 的main方法即可

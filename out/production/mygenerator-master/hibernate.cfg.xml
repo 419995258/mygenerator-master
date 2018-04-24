@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+	<!-- <property name="hibernate.connection.driver_class">
+	      com.mysql.jdbc.Driver 
+	</property>
+	<property name="hibernate.connection.password">love431</property>
+	<property name="hibernate.connection.url">
+		 jdbc:mysql://192.168.0.55:3306/ejiaoyan_studio 
+	</property>
+	<property name="hibernate.connection.username">root</property>
+	<property name="hibernate.dialect">
+		  org.hibernate.dialect.MySQLDialect
+	</property>
+	<property name="hibernate.show_sql">yes</property>
+	<property name="hibernate.hbm2ddl.auto">create</property>
+	<mapping class="org.plasea.generator.database.mysql.Table" />
+	 <mapping class="org.plasea.generator.database.mysql.TableField" />  --> 
+	 
+	 
+   <property name="hibernate.connection.driver_class">
+	       oracle.jdbc.driver.OracleDriver
+	</property>
+	<property name="hibernate.connection.password">love431</property>
+	<property name="hibernate.connection.url">
+	          jdbc:oracle:thin:@192.168.3.55:1521:orcl
+	</property>
+	<property name="hibernate.connection.username">tim_mis_base</property>
+	<property name="hibernate.dialect">
+	     org.plasea.generator.database.oracle.MyOracleDialect
+		<!-- org.hibernate.dialect.OracleDialect -->
+	</property>
+	<property name="hibernate.show_sql">yes</property>
+	<property name="hibernate.hbm2ddl.auto">create</property>
+	<mapping class="org.plasea.generator.database.oracle.OracleTable" />
+	 <mapping class="org.plasea.generator.database.oracle.OracleTableField" />  
+</session-factory>
+</hibernate-configuration>
